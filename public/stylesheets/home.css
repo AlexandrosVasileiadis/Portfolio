@@ -1,0 +1,77 @@
+body {
+    color: #f8f8f2 !important;
+    background-color: #282A36 !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+#navButton {
+    border: none;
+    box-shadow: none;
+}
+
+#navButton:focus {
+    outline: none;
+}
+
+.navbar-brand:focus{
+    outline: none;
+}
+
+h1 {
+    color: #98a6ad;
+}
+
+h3 {
+    font-size: 1.25rem !important;
+}
+
+.adds {
+    font-size: .8rem;
+}
+
+i {
+    color: #795548;
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#biography {
+    min-height: 90vh;
+}
+
+#skills {
+    background-color: #23252f;
+}
+
+#contact {
+    background-color: #23252f;
+}
+
+#contact-form input{
+    background-color: #44475a;
+    color: inherit;
+}
+
+#contact-form textarea{
+    background-color: #44475a;
+    color: inherit;
+}
+
+.btn-outline-primary {
+    color: #795548 !important;
+    border-color: #795548 !important;
+}
+
+.btn-outline-primary:hover {
+    color: inherit !important;
+    background-color: #795548 !important;
+}
+
+@media screen and (max-width: 58em) {
+    html {
+        font-size: 13.86px;
+    }
+}
